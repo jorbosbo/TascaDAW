@@ -1,0 +1,15 @@
+# JSON: JavaScript Object Notation
+**JSON**, acrònim de *JavaScript Object Notation*, és un format d’intercanvi de dades lleuger i fàcil de llegir. Dissenyat originalment per ser utilitzat amb JavaScript, **JSON** s’ha convertit en un estàndard per a la representació de dades estructurades en diversos contextos. A continuació se’n detallen diverses característiques.
+## Sintaxi Basada en Claus i Comes
+La sintaxi de **JSON** es basa en l’ús de claus per definir objectes i comes per separar elements dins d’eixos objectes. Aquesta estructura jeràrquica facilita la representació de dades anidades de manera clara i concisa.
+**Exemple:**
+```json
+{
+  "usuari": {
+    "nom": "Jorge Bosch",
+    "edat": 34,
+    "correu": [
+      "jbosch@gmail.com"
+    ]
+  }
+}
