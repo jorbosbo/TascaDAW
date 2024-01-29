@@ -1,0 +1,19 @@
+# YAML: Yet Another Markup Language
+**YAML**, acrònim de *Yet Another Markup Language*, és un format de serialització de dades que destaca per la seua simplicitat i llegibilitat. Tot i que es va originar com una alternativa més humana a XML, YAML ha guanyat popularitat en diverses aplicacions, des de la configuració d’arxius fins la representació de dades estructurades en llenguatges de programació.
+## Sintaxi Basada en Identació
+Una de les característiques distintives de **YAML** és la seua sintaxi basada en la identació. A diferència d’altres formats que utilitzen claudàtors o parèntesi per delimitar els blocs de codi, **YAML** utilitza espais o tabulacions per indicar la seua estructura jeràrquica de les dades. Aquest format contribueix a la llegibilitat del codi **YAML** i fomenta un estil d’escriptura net. 
+### Tipus de dades
+**YAML** admet diferents tipus de dades com:
+* Cadenes de text.
+* Nombres.
+* Booleans.
+* Matrius.
+* Objectes. 
+La representació d’aquests tipus és intuïtiva i fàcil d’entendre. A més a més, permet anidar estructures de dades de manera clara i concisa.
+També permet agregar comentaris per documentar i explicar el codi. Els comentaris en YAML comencen amb el símbol # i poden afegir-se al final d’una línia o com a línies independents.
+**Exemple:**
+```yaml
+nom: Jorge Bosch
+edat: 34
+correu:
+  - jbosch@gmail.com
